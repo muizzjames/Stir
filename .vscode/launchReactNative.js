@@ -2,8 +2,8 @@
 // Please do not modify it manually. All changes will be lost.
 try {
     var path = require("path");
-    var Launcher = require("/Users/lovecph/.vscode/extensions/vsmobile.vscode-react-native-0.2.5/out/debugger/launcher.js").Launcher;
-    new Launcher("/Users/lovecph/Workspace/stir", "/Users/lovecph/Workspace/stir").launch();
+    var Launcher = require("/Users/najibrajak/.vscode/extensions/vsmobile.vscode-react-native-0.2.5/out/debugger/launcher.js").Launcher;
+    new Launcher("/Users/najibrajak/myWork/stir", "/Users/najibrajak/myWork/stir").launch();
 } catch (e) {
     throw new Error("Unable to launch application. Try deleting .vscode/launchReactNative.js and restarting vscode.");
 }

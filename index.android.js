@@ -40,7 +40,7 @@ OneSignal.configure({
 import codePush from 'react-native-code-push';
 // let codePushOptions = { checkFrequency: codePush.checkFrequency.ON_APP_RESUME };
 
-class Stir extends Component {
+class eCommerce extends Component {
 
 	componentDidtMount() {
     	CodePush.sync({ updateDialog: true, installMode: CodePush.InstallMode.IMMEDIATE });
@@ -53,6 +53,6 @@ class Stir extends Component {
     }
 }
 
-Stir = codePush(Stir);
+eCommerce = codePush(eCommerce);
 
-AppRegistry.registerComponent('Stir', () => Stir);
+AppRegistry.registerComponent('eCommerce', () => eCommerce);

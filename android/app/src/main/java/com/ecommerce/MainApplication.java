@@ -1,4 +1,4 @@
-package com.rdt.stir;
+package com.ecommerce;
 
 import android.app.Application;
 import android.util.Log;

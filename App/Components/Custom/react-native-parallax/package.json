@@ -1,0 +1,97 @@
+{
+  "_args": [
+    [
+      {
+        "name": "react-native-parallax",
+        "raw": "react-native-parallax@0.*",
+        "rawSpec": "0.*",
+        "scope": null,
+        "spec": ">=0.0.0 <1.0.0",
+        "type": "range"
+      },
+      "/Users/minh/Documents/Projects/FlappyShop/FlappyShopApp"
+    ]
+  ],
+  "_from": "react-native-parallax@>=0.0.0 <1.0.0",
+  "_id": "react-native-parallax@0.3.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/react-native-parallax",
+  "_nodeVersion": "4.1.0",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/react-native-parallax-0.3.0.tgz_1465830554344_0.2636900928337127"
+  },
+  "_npmUser": {
+    "email": "joel@oblador.se",
+    "name": "oblador"
+  },
+  "_npmVersion": "2.14.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "react-native-parallax",
+    "raw": "react-native-parallax@0.*",
+    "rawSpec": "0.*",
+    "scope": null,
+    "spec": ">=0.0.0 <1.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-parallax/-/react-native-parallax-0.3.0.tgz",
+  "_shasum": "ff5cdf2444cbf7b5c32ea4b740b8539a0f506bc0",
+  "_shrinkwrap": null,
+  "_spec": "react-native-parallax@0.*",
+  "_where": "/Users/minh/Documents/Projects/FlappyShop/FlappyShopApp",
+  "author": {
+    "email": "joel@oblador.se",
+    "name": "Joel Arvidsson"
+  },
+  "bugs": {
+    "url": "https://github.com/oblador/react-native-parallax/issues"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1"
+  },
+  "description": "Parallax effects for React Native using Animated API",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "ff5cdf2444cbf7b5c32ea4b740b8539a0f506bc0",
+    "tarball": "https://registry.npmjs.org/react-native-parallax/-/react-native-parallax-0.3.0.tgz"
+  },
+  "gitHead": "828a1d623dbcb0c72cec3bcc115d67016c64fe80",
+  "homepage": "https://github.com/oblador/react-native-parallax",
+  "keywords": [
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "mobile",
+    "ios",
+    "android",
+    "ui",
+    "parallax",
+    "image"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "joel@oblador.se",
+      "name": "oblador"
+    }
+  ],
+  "name": "react-native-parallax",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://oblador@github.com/oblador/react-native-parallax.git"
+  },
+  "scripts": {
+    "test": "flow check"
+  },
+  "version": "0.3.0"
+}

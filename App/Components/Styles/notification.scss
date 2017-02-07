@@ -1,0 +1,49 @@
+$primary: #1CAADE; 
+$readColor: #484848;
+
+.body {
+  background-color: #F2F2F2;
+}
+
+.card {
+  background-color: #fff;
+  width: "JS(width-20)";
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+
+  padding: 16px;
+  height: 90px;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+.blockText {
+  width: "JS(width-70)";
+  padding-top: 6px;
+}
+
+.unreadBell {
+  color: $primary;
+  font-size: 30;
+}
+.unreadHeader {
+  color: $primary;
+}
+.unreadText {
+  font-size: 11;
+  color: $primary;
+}
+
+.readBell {
+  color: $readColor;
+  font-size: 30;
+}
+.readHeader {
+  color: $readColor;
+}
+.readText {
+  font-size: 11;
+  color: $readColor;
+}

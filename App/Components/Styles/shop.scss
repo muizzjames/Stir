@@ -1,0 +1,167 @@
+$primary: #FFFFFF;
+$backgroundColor: #F2F2F2;
+
+.container {
+  flex: 1;
+}
+
+.box {
+  flex: 1;
+  margin-bottom: 55px;
+  background-color: transparent;
+}
+
+.color {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: $primary;
+}
+
+.mail {
+  border-bottom-color: white;
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0.3;
+
+  position: relative;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.list {
+  flex: 1;
+	background-color: $backgroundColor;
+	padding: 10px;
+}
+.hlist {
+  flex: 1;
+  background-color: white;
+  padding: 0px;
+}
+
+.senderName {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 18px;
+}
+
+.body {
+  margin-top: 3px;
+  color: #fff;
+  line-height: 20;
+}
+
+.details {
+  margin-left: 15px;
+}
+
+.name {
+  text-align: center;
+  font-size: 13px;
+  width: "JS((width/3)-15)";
+  padding-left: 6px;
+  padding-top: 6px;
+}
+.price {
+  color: #999;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 6px;
+}
+
+.toolbar {
+  height: 60px;
+  background-color: $primary;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding-left: 15px;
+  padding-top: 13px;
+  padding-right: 15px;
+
+  shadow-color: #000;
+  shadow-offset: "JS({width: 0, height: 2})";
+  shadow-opacity: 0.3;
+  shadow-radius: 1.5;
+}
+.title {
+  color: #333;
+  font-size: 13px;
+  text-align: center;
+  font-weight: 600;
+  padding: 10px;
+  padding-top: 14px;
+}
+.subtitle {
+  color: #fff;
+  font-size: 16;
+  height: 0;
+}
+
+.panel {
+  align-items: center;
+  justify-content: center;
+  margin: 5;
+  position: relative;
+  width: "JS((width/3)-10)";
+  height: "JS((width/3))";
+}
+
+.imagePanel {
+  position: absolute;
+  width: "JS((width/3)-10)";
+  height: "JS((width/3))";
+  top: 0;
+}
+
+.scrollView {
+  height: 220px;
+  border-bottom-color: #eee;
+  border-bottom-width: 1px;
+}
+.block {
+  align-items: center;
+  justify-content: center;
+  margin: 5;
+  position: relative;
+  width: "JS((width/2)-20)";
+  height: "JS((width/3))";
+}
+.imageBlock {
+  position: absolute;
+  width: "JS((width/2)-20)";
+  height: "JS((width/3))";
+  top: 0;
+}
+
+.image {
+  flex: 1;
+  width: "JS(width)";
+  height: "JS(width / 2)";
+}
+
+.imageFull {
+  flex: 1;
+  width: "JS(width)";
+  height: "JS(width / 2)";
+}
+
+.blockFull {
+  align-items: center;
+  justify-content: center;
+  margin: 5;
+  position: relative;
+  width: "JS(width-30)";
+  height: "JS(width/4)";
+}
+
+.imageFull {
+  position: absolute;
+	width: "JS(width - 30)";
+  height: "JS(width / 4)";
+  top: 0;
+}

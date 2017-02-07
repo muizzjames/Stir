@@ -1,0 +1,121 @@
+$secondary: #ccc;
+
+.button {
+  background-color: #fff;
+  padding: 10px;
+  border-color: transparent;
+  border-width: 2px;
+  align-self: stretch;
+  border-radius: 23px;
+  height: 45px;
+  margin-top: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.small {
+  background-color: #fff;
+  padding: 4;
+  padding-left: 12;
+  padding-right: 12;
+  padding-top: 6;
+  border-color: #ddd;
+  border-width: 1;
+  align-self: center;
+  text-align: center;
+  border-radius: 3;
+  margin-right: 8;
+  font-size: 11;
+}
+.link {
+  background-color: #fff;
+  padding: 4;
+    padding-top: 6;
+  padding-left: 12;
+  padding-right: 12;
+  align-self: center;
+  text-align: center;
+  border-radius: 3;
+  margin-right: 8;
+  font-size: 11;
+  text-decoration-line: underline;
+}
+
+.buttonRound {
+  background-color: #fff;
+  padding: 12px;
+  border-color: #ddd;
+  border-width: 1;
+  align-self: center;
+  border-radius: 20px;
+  margin-top: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: "JS(width-30)";
+}
+.buttonRoundText {
+  color: #333;
+  align-self: center;
+  font-size: 14px;
+}
+.buttonRoundBlue {
+  background-color: rgba(60, 135, 217, 0.8);
+  padding: 12px;
+  border-color: transparent;
+  align-self: center;
+  border-radius: 20px;
+  margin-top: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: "JS(width-30)"
+}
+
+.buttonRectangularText {
+  color: #fff;
+  align-self: center;
+  font-size: 14px;
+}
+
+.buttonColor {
+  background-color:$secondary;
+  padding: 10px;
+  border-color: transparent;
+  border-width: 2px;
+  align-self: stretch;
+  border-radius: 23px;
+  height: 45px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.buttonRectangularColor {
+  background-color: $secondary;
+  padding: 10px;
+  border-color: transparent;
+  border-width: 2px;
+  align-self: stretch;
+  border-radius: 23px;
+  height: 45px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.buttonText {
+  color:$secondary;
+  align-self: center;
+  font-size: 18px;
+}
+
+.buttonColorText {
+  color: #fff;
+  align-self: center;
+  font-size: 17px;
+}
+
+.buttonRectangularColorText {
+  color: #fff;
+  align-self: center;
+  font-size: 17px;
+}

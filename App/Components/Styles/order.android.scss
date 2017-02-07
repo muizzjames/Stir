@@ -1,0 +1,93 @@
+$primary : #eee;
+$mainColor: #1CAADE;
+
+.body {
+  background-color: #F2F2F2;
+  padding-bottom: 40;
+}
+.card {
+  width: "JS(width)";
+  border-bottom-width: 1;
+  border-bottom-color: #eee;
+  margin-top: 18;
+  background-color: white;
+  position: relative;
+}
+.row {
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: "JS(width-8)";
+  margin: 4;
+  padding-bottom: 4;
+  position: relative;
+}
+
+.linebreak {
+  border-top-width: 1;
+  border-top-color: #eee;
+  margin-top: 8;
+}
+
+.header {
+  font-weight: 500;
+  font-size: 14;
+  color: #333;
+}
+
+.hide {
+  color: white;
+}
+
+.link {
+  width: "JS(width/4 - 30)";
+  text-align: right;
+  margin-right: 30;
+  font-size: 12;
+  color: #bbb;
+}
+.label {
+  width: "JS(3*width/4 - 40)";
+  margin-left: 30;
+  margin-top: 12;
+  padding-bottom: 12;
+  font-size: 12;
+  color: #666;
+  position: relative;
+}
+
+.total {
+  font-size: 14;
+  color: #000;
+}
+.labelView {
+  width: "JS(3*width/4 - 10)";
+  padding-left: 30;
+  padding-top: 12;
+  padding-bottom: 12;
+}
+
+.subLabel {
+  font-size: 12;
+  color: #333;
+}
+
+.fullWidth {
+  width: "JS(width-40)";
+}
+
+.description {
+  font-size: 11;
+  color: #aaa;
+  width: "JS(width)";
+  margin-top: 4;
+}
+
+.value {
+  width: "JS(width/4 - 30 )";
+  text-align: right;
+  margin-right: 30;
+  font-size: 12;
+  font-weight: 500;
+}

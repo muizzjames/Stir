@@ -1,0 +1,43 @@
+{
+  "name": "Stir",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node_modules/react-native/packager/packager.sh"
+  },
+  "dependencies": {
+    "color": "0.10.1",
+    "moment": "2.12.0",
+    "node-sass": "^3.8.0",
+    "oauth-1.0a": "^1.0.1",
+    "react": "~15.4",
+    "react-addons-shallow-compare": "^15.3.2",
+    "react-native": "0.39",
+    "react-native-android-statusbar": "0.*",
+    "react-native-animatable": "0.*",
+    "react-native-animated-tabs": "1.*",
+    "react-native-app-intro": "1.*",
+    "react-native-button": "1.4",
+    "react-native-code-push": "^1.16.1-beta",
+    "react-native-drawer": "2.*",
+    "react-native-drop-refresh": "2.*",
+    "react-native-fence-html": "^1.0.6",
+    "react-native-foursquare-api": "0.0.4",
+    "react-native-gifted-spinner": "0.*",
+    "react-native-item-checkbox": "1.*",
+    "react-native-modalbox": "1.*",
+    "react-native-navbar": "1.*",
+    "react-native-onesignal": "^2.0.0",
+    "react-native-parallax-scroll-view": "0.*",
+    "react-native-parallax-view": "2.*",
+    "react-native-router-flux": "3.*",
+    "react-native-scrollable-tab-view": "0.*",
+    "react-native-scrollview-lazyload": "1.*",
+    "react-native-selectme": "1.*",
+    "react-native-spinkit": "0.*",
+    "react-native-swiper": "1.*",
+    "react-native-timeago": "0.*",
+    "react-native-vector-icons": "2.*",
+    "react-timer-mixin": "^0.13.3"
+  }
+}

@@ -1,0 +1,186 @@
+$primary : #eee;
+$mainColor: #1CAADE;
+
+.layout {
+  background-color: white;
+  flex: 1;
+}
+
+.card {
+  background-color: #fff;
+  width: "JS(width-20)";
+  margin-left: 10;
+  margin-right: 10;
+  margin-top: 5;
+  margin-bottom: 5;
+}
+.cardConfirm {
+  width: "JS(width-20)";
+  margin-left: 10;
+  margin-right: 10;
+  border-top-width: 1;
+  border-top-color: #ddd;
+}
+
+.statusContainer {
+  width: "JS(width-80)";
+  align-self: center;
+  flex-direction: row;
+  height: 120;
+  position: relative;
+}
+.status {
+  border-top-width: 2;
+  border-color: #eee;
+  width: "JS(width-80)";
+  position: relative;
+  align-self: center;
+  margin-top: 20;
+  margin-bottom: 30;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.statusHalf {
+  width: "JS((width-80)/2 - 2)";
+  border-top-width: 2;
+  border-color: $mainColor;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.statusFull {
+  width: "JS((width-100))";
+  border-top-width: 2;
+  border-color: $mainColor;
+  position: absolute;
+
+  // conflict with running mode
+  top: 28;
+  left: 50;
+}
+
+.statusComplete {
+  left: 0;
+}
+
+.tabName {
+  position: absolute;
+  left: -8;
+  font-size: 10;
+  width: 80;
+  top: 16;
+  color: #999;
+}
+.tabNameActive {
+  color: $mainColor;
+  font-weight: 600;
+  font-size: 11;
+}
+.tabNameFinish {
+  color: #333;
+}
+
+.statusIcon {
+  height: 20;
+  width: 20;
+  padding: 6;
+  background-color: #eee;
+  border-radius: 20;
+  margin-top: -14;
+  border-width: 6;
+  border-color: transparent;
+}
+
+.statusActive {
+  background-color: $mainColor;
+  border-width: 6;
+  border-color: #eee;
+  border-radius: 30;
+}
+.statusFinish {
+  background-color: $mainColor;
+  border-width: 6;
+  border-color: $mainColor;
+  border-radius: 20;
+}
+
+.input {
+  height: 40px;
+  border-color: #ddd;
+  border-width: 1px;
+  font-size: 14px;
+  padding: 4;
+  padding-left: 8px;
+  border-radius: 4px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.inputContainer {
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  width: "JS(width - 60)";
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.inputHalf {
+  width: "JS(width/2 - 40)";
+  align-self: flex-start;
+
+  height: 40px;
+  border-color: #ddd;
+  border-width: 1px;
+  font-size: 14px;
+  padding: 4;
+  padding-left: 8px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  color: #333;
+}
+.bankImage {
+  resize-mode: contain;
+  width: 100;
+  height: 60;
+}
+
+.cardContainer {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top:0;
+  margin-bottom:12;
+  width: "JS(width)";
+  padding-left: 30;
+  padding-right: 30;
+}
+
+.successView {
+  flex: 1;
+  justify-content: center;
+  padding: 30;
+}
+.body {
+  padding: 10;
+  font-size: 13;
+  line-height: 26;
+  text-align: center;
+  color: #666;
+}
+
+.checkIcon {
+  text-align: center;
+  font-size: 200;
+  color: $mainColor;
+}
+.h1 {
+  color: #222;;
+  font-size: 22px;
+  padding-bottom: 20;
+  padding-top: 20;
+  text-align: center;
+}

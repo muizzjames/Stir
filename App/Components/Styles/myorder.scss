@@ -1,0 +1,178 @@
+$primary: #ddd;
+$mainColor: #1CAADE;
+
+.body {
+  background-color: #F2F2F2;
+  flex: 1;
+}
+
+.card {
+  flex: 1;
+  background-color: #fff;
+  width: "JS(width - 20)";
+  margin-top: 18;
+  padding: 12;
+  padding-top: 16;
+  padding-bottom: 4;
+  margin-left: 10;
+  margin-right: 10;
+  margin-bottom: 0;
+  border-radius: 9;
+  shadow-color: #000;
+  shadow-offset: "JS({width: 1, height: 1})";
+  shadow-opacity: 0.1;
+  shadow-radius: 4;
+}
+
+.row {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.image {
+  resize-mode: contain;
+  width: "JS(width/4 + 30)";
+  height: 150;
+  border-radius: 3;
+  overflow: hidden;
+}
+.content {
+  width: "JS(3 * width/4 - 70)";
+  padding-left: 12;
+  padding-top: 4;
+}
+.buttons {
+    width: "JS(3 * width/4 - 90)";
+    flex-direction: row;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.name {
+  font-size: 13;
+  color: #333;
+  font-weight: 600;
+  padding-bottom: 12;
+}
+
+.status {
+  font-size: 11;
+  color: #333;
+  padding-bottom: 8;
+}
+
+.line {
+  border-top-width: 2;
+  border-color: $primary;
+  width: "JS(width - 20)";
+  position: relative;
+  align-self: center;
+  margin-top: 30;
+}
+
+.lineFinishHalf {
+  border-top-width: 2;
+  border-color: $mainColor;
+  width: "JS(width/2 - 20)";
+  position: absolute;
+  left: 0;
+  margin-top: -2;
+}
+
+.lineFinish {
+  border-top-width: 2;
+  border-color: $mainColor;
+  width: "JS(width - 20)";
+  position: absolute;
+  left: 0;
+  margin-top: -2;
+}
+
+.circel {
+  height: 16;
+  width: 16;
+  background-color: $primary;
+  border-radius: 8;
+  margin-top: -8;
+
+}
+.finish {
+  background-color: $mainColor;
+}
+
+.going {
+  height: 20;
+  width: 20;
+  border-radius: 10;
+  background-color: $mainColor;
+  border-width: 6;
+  border-color: $primary;
+  margin-left: -2;
+}
+
+.statusIcons {
+  flex-direction: row;
+  align-self: center;
+  align-items: center;
+  justify-content: space-between;
+  width: "JS(width-60)";
+  top: -11;
+  padding-top: 6;
+}
+
+.icon {
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3;
+}
+
+.iconLabel {
+  font-size: 10;
+  font-weight: 500;
+  color: #666;
+  padding-top: 8;
+}
+
+
+
+
+
+
+.detailBtn {
+  align-items: center;
+  justify-content: center;
+  background-color: #dbdbdb;
+  padding: 10
+}
+
+
+
+.productDelivery {
+  font-size: 10;
+  color: #595959;
+  font-weight: 500
+}
+
+.refresh {
+  height: 18;
+  width: 15
+}
+
+
+
+
+.tick {
+  resize-mode: contain;
+  height: 20;
+  width: 17
+}
+
+.trackBtn {
+  align-items: center;
+  justify-content: center;
+  background-color: $primary;
+  padding: 5;
+  align-self: flex-end
+}

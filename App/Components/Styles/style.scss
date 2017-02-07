@@ -1,0 +1,308 @@
+$textColor: #494949;
+$mainColor: white;
+$backgroundColor: #1CAADE;
+
+.color {
+  color: $mainColor;
+}
+
+.backgroundColor {
+  background-color: $backgroundColor;
+}
+
+.layout {
+  background-color: white;
+  flex: 1;
+}
+
+.h3 {
+  color: $textColor;
+  font-size: 16px;
+}
+
+.toolbarView {
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: "JS(width)";
+  z-index: 9;
+}
+
+.toolbarMenu  {
+  height: 60;
+  background-color: rgba(255, 255, 255, 1);
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 15;
+  padding-top: 13;
+  padding-right: 15;
+}
+
+.toolbarTitleView {
+  position: absolute;
+  top: 27;
+  left: 0;
+  width: "JS(width - 160)";
+  margin-left: 80;
+  margin-right: 80;
+  align-items: center;
+}
+
+.toolbarTitle {
+  color: $textColor;
+  font-size: 16px;
+  align-self: center;
+}
+
+.textcolor {
+  color: $textColor;
+}
+
+.icon {
+  font-size: 40;
+  color: $textColor;
+}
+.icon32 {
+  font-size: 32;
+  color: $textColor;
+}
+.imageIconView  {
+  margin-left: 2;
+  margin-right: 0;
+  margin-top: 6;
+
+  margin-bottom:10;
+  shadow-color: #000;
+  padding: 10;
+}
+
+.imageIcon {
+  width: 14px;
+  height: 14px;
+}
+.imageIconLarge {
+  width: 18px;
+  height: 18px;
+}
+.iconHome {
+  width: 20px;
+  margin-left: -4px;
+}
+.iconPadding {
+  padding: 10;
+}
+
+.iconLarge {
+  width: 24;
+}
+.iconBack {
+  margin-left: 0px;
+  position: absolute;
+  left: -12px;
+  top: -7px;
+}
+.rowCenter {
+  flex-direction: row;
+  align-items: center;
+}
+
+.padLeft10 {
+    margin-left: 18px;
+}
+
+.toolbar {
+    height: 20px;
+    background-color: $mainColor;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 15px;
+    padding-top: 28px;
+}
+
+
+
+.logo {
+  resize-mode: contain;
+  height: 22;
+  margin: 0px;
+}
+
+.modal {
+  margin: 20px;
+  border-radius: 3;
+  overflow: hidden;
+}
+
+.image {
+  width: "JS(width-20)"
+}
+
+.iconInput {
+  position: absolute;
+  top:7;
+  left: 0;
+  opacity:0.8;
+  color: #aaa;
+}
+
+.inputIcon {
+  position: absolute;
+  left: 0;
+  top: 6;
+  resize-mode: contain;
+  height: 24;
+  width: 24;
+}
+
+.buttonRound {
+  position: relative;
+  border-color: #ddd;
+  border-width: 0.8px;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  margin: 8px;
+  margin-top: 10px;
+  padding-bottom: 8px;
+}
+
+$secondary: #eee;
+
+.button {
+  background-color: #fff;
+  padding: 10;
+  border-color: transparent;
+  border-width: 2;
+  align-self: stretch;
+  border-radius: 23;
+  height: 45;
+  margin-top: 18;
+  margin-left: 10;
+  margin-right: 10;
+}
+
+.buttonColor {
+  background-color: $secondary;
+  padding: 10;
+  border-color: transparent;
+  border-width: 2;
+  align-self: stretch;
+  border-radius: 23;
+  height: 45;
+  margin-top: 18;
+  margin-left: 10;
+  margin-right: 10;
+}
+
+.buttonText {
+  color: $secondary;
+  align-self: center;
+  font-size: 18
+}
+
+.buttonColorText {
+  color: #fff;
+  align-self: center;
+  font-size: 17
+}
+
+.textInput {
+  height: 40;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.9);
+  padding-left: 40;
+}
+
+.textInputDark {
+  height: 40;
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.9);
+  padding-left: 40
+}
+
+.outerBorder {
+  position: relative;
+  border-color: white;
+  border-width: 0.8;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  margin: 15;
+  margin-top: 5
+}
+
+.outerBorderDark {
+  position: relative;
+  border-color: #aaa;
+  border-width: 0.8;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  margin: 15;
+  margin-top: 5
+}
+
+.inputSearch {
+  height: 34;
+  border-color: #ddd;
+  border-width: 1px;
+  font-size: 14px;
+  padding: 8;
+  padding-left: 8px;
+  border-radius: 4px;
+  margin-top: 8;
+  margin-left: 10;
+  margin-right: 10;
+  margin-bottom: 8px;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: "JS(width - 20)";
+}
+
+.searchBox {
+  height: 0;
+}
+
+.halfWidth {
+  width: "JS(width/2 - 20)";
+}
+
+
+.spinner {
+  width: "JS(width)";
+  align-items: center;
+  margin-top: 30;
+  margin-bottom: 30;
+}
+
+
+// for menu layout
+.templateLayout {
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.templateRow {
+  width: "JS(width/2 - 12)";
+  height: "JS(vh * 21)";
+  background-color: #f9f9f9;
+  margin-left: 8;
+  margin-bottom: 8;
+  border-width: 1;
+  border-color: #eee;
+  align-items: center;
+  justify-content: center;
+}
+.templateImage {
+  width: "JS(width/2-12)";
+  height: 100;
+  resize-mode: contain;
+}
+.templateMenu {
+  color: #888;
+  font-weight: 600;
+  font-size: 12;
+}

@@ -1,0 +1,33 @@
+.image {
+  width: "JS(width)";
+  height: 200;
+
+  border-bottom-width: 1;
+  border-bottom-color: #fff
+}
+.overlay {
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  font-size: 18;
+  text-align: center;
+  line-height: 25;
+  font-weight: 400;
+  color: white;
+
+  shadow-offset: "JS({width: 0, height: 0})";
+  shadow-radius: 1;
+  shadow-color: black;
+  shadow-opacity: 0.8;
+}
+
+.description {
+  opacity: 0.9;
+  font-size: 13;
+  text-align: center;
+  color: white;
+  padding-top: 6;
+}

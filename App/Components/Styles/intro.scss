@@ -1,0 +1,103 @@
+.slide {
+    height: "JS(height)";
+    background-color: #1CAADE;
+    align-items: center;
+    z-index: 9;
+}
+
+.imageView {
+  position: absolute;
+  top: "JS(5 * vh)";
+}
+
+.image {
+  width: "JS(width)";
+  height: "JS(width * 2 - 300)";
+  resize-mode: contain;
+
+}
+
+.boxView {
+  position: absolute;
+  left: 0;
+  bottom: "JS(vh)";
+  width: "JS(width)";
+}
+.box {
+    width: "JS(width - 20)";
+    resize-mode: contain;
+    margin-left: 10;
+}
+
+
+.text {
+    color: white;
+    font-size: 20;
+    line-height: 34;
+    font-weight: bold;
+    text-align: center;
+}
+
+.signupText {
+  text-shadow-color: black;
+  text-shadow-offset: "JS({width: 0, height: 0})";
+  text-shadow-radius: 2;
+  shadow-opacity: 0.2;
+
+  font-size: 13;
+  position: absolute;
+  bottom: 42;
+  right: 34;
+  width: "JS(width)";
+  text-align: right;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.8);
+}
+.background {
+  position: absolute;
+  top: 0;
+  height: "JS(height)";
+  resize-mode: contain;
+  left: 0;
+  width: "JS(width)";
+  z-index: 0;
+}
+
+
+.icon {
+  position: absolute;
+  top: "JS(20 * vh)";
+  left: "JS(20 * vw)";
+
+  height: 100;
+  width: "JS(width)";
+}
+
+.iconAndroid {
+  font-size: 100;
+  color: #A4C639;
+  background-color: transparent;
+  margin-top: -120;
+}
+
+.iconApple {
+  font-size: 100;
+  color: #666;
+  background-color: transparent;
+}
+
+
+// for android
+.boxViewAndroid {
+  position: absolute;
+  height: 300;
+  left: 0;
+  bottom: "JS(vh)";
+  width: "JS(width)";
+}
+
+.boxAndroid {
+  width: "JS(width - 20)";
+  resize-mode: contain;
+  margin-left: 10;
+}
